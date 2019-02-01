@@ -49,6 +49,13 @@ module.exports = {
               name: '[path][name].[ext]'
             }
           }]
+        },
+        {
+          test: /\.(png|woff|woff2|eot|ttf|svg|gif|jpg)$/,
+          loader: 'url-loader?limit=100000',
+          options: {
+            mimetype: 'image/png'
+          }
         }
       ]
     },

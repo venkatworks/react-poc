@@ -26,3 +26,40 @@
 a.card-link:link{
     color:black
 }
+
+.investment-header{
+    width:100%;
+    background: #33c4f4;
+    height:50px;
+    padding:2px;
+    color:#fff;
+    text-align: center;
+}
+
+.portfolio-header-container{
+    height: 40px;
+    width:100%;
+}
+
+.portfolio-header{
+    font-size: 18px;
+    font-weight: bold;
+    color:#097df2;
+    float:left;
+    width:60%
+}
+
+.portfolio-btns-container{
+    width:30%;
+    float:left;
+}
+
+.portfolio-btns{    
+    float:left;
+}
+
+.prt-btn{
+    color:#fff;
+    background: #0578b1;
+    height:25px;
+}
