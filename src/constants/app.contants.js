@@ -189,7 +189,7 @@ const portfolios = [
             instrument: {
               id: 3,
               name: 'Eaton Corp PLC',
-              type: 'Equity'
+              type: 'BOND'
             }
           },
           {
@@ -197,7 +197,7 @@ const portfolios = [
             instrument: {
               id: 4,
               name: 'Fedx corp',
-              type: 'Equity'
+              type: 'BOND'
             }
           },
           {
@@ -229,7 +229,7 @@ const portfolios = [
             instrument: {
               id: 8,
               name: 'hal',
-              type: 'Bond'
+              type: 'CASH'
             }
           },
           {
@@ -382,7 +382,7 @@ const portfolios = [
             instrument: {
               id: 7,
               name: 'General Dynamics',
-              type: 'Bond'
+              type: 'Equity'
             }
           },
           {
@@ -415,7 +415,7 @@ const portfolios = [
             instrument: {
               id: 1,
               name: 'CSX corp',
-              type: 'Equity'
+              type: 'Bond'
             }
           },
           {
@@ -423,7 +423,7 @@ const portfolios = [
             instrument: {
               id: 2,
               name: 'cummins Inc',
-              type: 'Equity'
+              type: 'CASH'
             }
           },
           {
@@ -479,7 +479,7 @@ const portfolios = [
             instrument: {
               id: 10,
               name: 'USD CASH',
-              type: 'CASH'
+              type: 'Bond'
             }
           }
         ]
