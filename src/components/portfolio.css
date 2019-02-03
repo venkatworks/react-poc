@@ -1,6 +1,31 @@
 .main-container{
-    width:'100%';
-    height:'100%';
+    width:100%;
+    height:100%;
+    margin-top:10px;
+    margin-left:5px;
+    margin-right:5px;
+    border-top:1px solid #dcdcdc;
+}
+
+.category-label{
+    float:left;
+    width:50%;
+}
+
+.model-label{
+    float:left;
+    width:25%;
+}
+
+.weight-label{
+    float: left;
+    width:25%;
+}
+
+.inner-container{
+    width:95%;
+    height:95%;
+    border:1px solid #dcdcdc;
 }
 
 .portfolio-card{
@@ -46,20 +71,86 @@ a.card-link:link{
     font-weight: bold;
     color:#097df2;
     float:left;
-    width:60%
+    width:60%;
+    padding: 15px;
 }
 
 .portfolio-btns-container{
     width:30%;
     float:left;
+    padding:15px;
 }
 
 .portfolio-btns{    
     float:left;
 }
 
+.portfolio-label{
+    color:#000;
+}
+
 .prt-btn{
-    color:#fff;
+    color: #fff;
     background: #0578b1;
-    height:25px;
+    height: 25px;
+    border-radius: 2px;
+    border: 1px solid #0578b1;
+    margin:3px;
+}
+
+.equity-list-container{
+    box-sizing: content-box;
+}
+
+.constituent-id{
+    float:left;
+    width: 48%;
+    padding-left: 20px;
+}
+
+
+.constituent-label{
+    float:left;
+    width: 25%;
+}
+
+.constituent-value{
+    float:left;
+    width: 25%;
+}
+
+.accord-header-container{
+    width: 95%;
+    background: #dcdcdc;
+    height: 30px;
+    margin-left:5px;
+    margin-right:5px;
+}
+
+.accord-header{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    float:left;
+    width: 73%;
+    padding-left:10px;
+    padding-top:5px;
+}
+
+.close-btn-container{
+    float: left;
+    width: 25%;
+}
+
+.close-btn{
+    background: #097df2;
+    border:1px solid #097df2;
+    color:#fff;
+}
+
+.eq-inner-container{
+    border: 1px solid #dcdcdc;
+    margin-left: 5px;
+    margin-right: 10px;
+    width: 95%;
 }
